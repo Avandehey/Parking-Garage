@@ -27,15 +27,14 @@ class parking():
 
 
     def pay_parking(self):
-        while True:
             answer = input("pay for parking")
             try:
-                payed == float(answer)
+                answer == float(answer):
                 self.current_ticket["paid"] = True
                 print("Ticket has been paid. You have 15 minutes to leave")
-                break
             except:
-                payed = None
+                return
+                
 
 
     def leave_garage(self):
